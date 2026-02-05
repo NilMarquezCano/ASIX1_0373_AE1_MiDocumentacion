@@ -111,3 +111,14 @@ Para la creacion de un archivo html tenemos que entrar en Visual Studio Code y a
 
 En este encontraremos el head y el body estos indican que parte es donde se puede picar codigo (body) y donde se puede modificar la imagen de la pagina web y el titulo seria el (head).
 
+
+# Introducción a HTML
+
+**HTML** (*HyperText Markup Language*) es el lenguaje de marcado estándar para crear páginas web. Es el componente más importante de Internet, ya que sin él no se visualizaría nada en el navegador.
+
+* **Función**: Define la estructura y el contenido (imágenes, listas, enlaces, párrafos, titulares, etc.) mediante etiquetas.
+* **Alcance**: Describe el contenido, pero no se encarga de la interacción (JavaScript) ni de la presentación visual (CSS).
+* **Origen**: Fue desarrollado en **1991** por **Tim Berners-Lee**.
+
+---
+
