@@ -112,13 +112,73 @@ Para la creacion de un archivo html tenemos que entrar en Visual Studio Code y a
 En este encontraremos el head y el body estos indican que parte es donde se puede picar codigo (body) y donde se puede modificar la imagen de la pagina web y el titulo seria el (head).
 
 
-# Introducción a HTML
+## Significado de las siglas
 
-**HTML** (*HyperText Markup Language*) es el lenguaje de marcado estándar para crear páginas web. Es el componente más importante de Internet, ya que sin él no se visualizaría nada en el navegador.
+1. **Hyper Text (Hipertexto)**: Texto que enlaza con otros contenidos o archivos; es la base de la interconexión en la web.
+2. **Markup (Marcado)**: Se refiere a las etiquetas o marcas que construyen todas las páginas web.
+3. **Language (Lenguaje)**: Posee normas, estructura y convenciones para definir el contenido de una web.
 
-* **Función**: Define la estructura y el contenido (imágenes, listas, enlaces, párrafos, titulares, etc.) mediante etiquetas.
-* **Alcance**: Describe el contenido, pero no se encarga de la interacción (JavaScript) ni de la presentación visual (CSS).
-* **Origen**: Fue desarrollado en **1991** por **Tim Berners-Lee**.
 
----
 
+## Elementos y Etiquetas
+
+Los elementos HTML se usan para encerrar partes del contenido y darles un comportamiento o apariencia específica.
+
+### Partes de un elemento
+* **Etiqueta de apertura**: Consiste en el nombre del elemento entre paréntesis angulares `< >` (ejemplo: `<p>`).
+* **Contenido**: La información o texto que contiene el elemento.
+* **Etiqueta de cierre**: Igual que la de apertura pero incluye una barra `/` (ejemplo: `</p>`).
+
+<p>Mi gato es muy gruñón</p>`
+
+### Atributos
+Proporcionan información adicional sobre el elemento que no aparece en el contenido real.
+* Se incluyen siempre en la etiqueta de apertura.
+* Formato: `nombre="valor"` (ejemplo: `<p class="editor-note">`).
+
+**Elementos vacíos**: Son etiquetas que no tienen contenido ni cierre, como `<img>`.
+
+
+
+## Estructura básica de un archivo HTML
+
+1. `<!DOCTYPE html>`: Declaración necesaria para indicar el tipo de documento.
+2. `<html>`: Elemento raíz que encierra todo el contenido de la página.
+3. `<head>`: Contiene metadatos e información no visible para los visitantes.
+4. `<body>`: Contiene el contenido principal que sí es visible.
+
+### Etiquetas comunes en el HEAD
+* `<meta charset="utf-8">`: Establece el juego de caracteres universal.
+* `<title>`: El título que aparece en la pestaña del navegador (importante para SEO).
+* `<link rel="icon">`: Define el **favicon** o icono de la pestaña.
+* `<meta name="viewport">`: Asegura que el contenido sea adaptable a móviles.
+
+
+
+## Elementos de Bloque y de Línea
+
+* **Elementos de bloque**: Ocupan todo el ancho, comienzan en una línea nueva y separan bloques con espacio (ejemplos: `<h1>-<h6>`, `<p>`, `<ul>`, `<table>`, `<div>`).
+* **Elementos de línea**: Solo ocupan el espacio de su contenido y se muestran uno tras otro (ejemplos: `<a>`, `<strong>`, `<em>`, `<img>`, `<span>`).
+
+
+
+## HTML Semántico (HTML 5)
+
+Es fundamental para describir el contenido dándole un significado correcto.
+* **Contenedores no semánticos**: `<div>` (bloque) y `<span>` (línea). Solo agrupan sin dar pistas sobre el contenido.
+* **Etiquetas semánticas**: `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, `<figure>`.
+
+
+
+## Formularios y Tablas
+
+### Formularios
+Sirven para interactuar con el usuario y recibir datos.
+* **Etiquetas**: `<form>`, `<label>`, `<input>`, `<textarea>`, `<button>`.
+* **Atributos de entrada**: `type` (text, password, radio, checkbox, etc.), `name`, `value` y `placeholder`.
+
+### Tablas
+* `<table>`: Inicia la tabla.
+* `<tr>`: Define una fila.
+* `<th>`: Celda de encabezado (negrita por defecto).
+* `<td>`: Celda de datos estándar.
