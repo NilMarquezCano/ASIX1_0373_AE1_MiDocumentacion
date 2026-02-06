@@ -195,11 +195,6 @@ Atributos de entrada: `type` (text, password, radio, checkbox, etc.), `name`, `v
 
 ### Sintaxis Básica
 Toda regla de CSS sigue este esquema:
-```css
-selector {
-  propiedad: valor;
-}
-
 
 ### Caja (Box Model)
 Fundamental para entender el diseño y el espacio en la web. Todo elemento se considera una caja rectangular compuesta por:
