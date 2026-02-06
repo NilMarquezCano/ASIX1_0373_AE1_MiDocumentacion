@@ -114,9 +114,9 @@ En este encontraremos el head y el body estos indican que parte es donde se pued
 
 ## Significado de las siglas
 
-1. **Hyper Text (Hipertexto)**: Texto que enlaza con otros contenidos o archivos; es la base de la interconexión en la web.
-2. **Markup (Marcado)**: Se refiere a las etiquetas o marcas que construyen todas las páginas web.
-3. **Language (Lenguaje)**: Posee normas, estructura y convenciones para definir el contenido de una web.
+1. Hyper Text (Hipertexto): Texto que enlaza con otros contenidos o archivos; es la base de la interconexión en la web.
+2. Markup (Marcado): Se refiere a las etiquetas o marcas que construyen todas las páginas web.
+3. Language (Lenguaje): Posee normas, estructura y convenciones para definir el contenido de una web.
 
 
 
@@ -125,48 +125,49 @@ En este encontraremos el head y el body estos indican que parte es donde se pued
 Los elementos HTML se usan para encerrar partes del contenido y darles un comportamiento o apariencia específica.
 
 ### Partes de un elemento
-* **Etiqueta de apertura**: Consiste en el nombre del elemento entre paréntesis angulares `< >` (ejemplo: `<p>`).
-* **Contenido**: La información o texto que contiene el elemento.
-* **Etiqueta de cierre**: Igual que la de apertura pero incluye una barra `/` (ejemplo: `</p>`).
+Etiqueta de apertura: Consiste en el nombre del elemento entre paréntesis angulares `< >` (ejemplo: `<p>`).
+Contenido: La información o texto que contiene el elemento.
+Etiqueta de cierre: Igual que la de apertura pero incluye una barra `/` (ejemplo: `</p>`).
 
 <p>Mi gato es muy gruñón</p>`
 
 ### Atributos
 Proporcionan información adicional sobre el elemento que no aparece en el contenido real.
-* Se incluyen siempre en la etiqueta de apertura.
-* Formato: `nombre="valor"` (ejemplo: `<p class="editor-note">`).
+Se incluyen siempre en la etiqueta de apertura.
+Formato: `nombre="valor"` (ejemplo: `<p class="editor-note">`).
 
-**Elementos vacíos**: Son etiquetas que no tienen contenido ni cierre, como `<img>`.
+Elementos vacíos: Son etiquetas que no tienen contenido ni cierre, como `<img>`.
 
 
 
 ## Estructura básica de un archivo HTML
 
-1. `<!DOCTYPE html>`: Declaración necesaria para indicar el tipo de documento.
-2. `<html>`: Elemento raíz que encierra todo el contenido de la página.
-3. `<head>`: Contiene metadatos e información no visible para los visitantes.
-4. `<body>`: Contiene el contenido principal que sí es visible.
+`<!DOCTYPE html>`: Declaración necesaria para indicar el tipo de documento.
+`<html>`: Elemento raíz que encierra todo el contenido de la página.
+`<head>`: Contiene metadatos e información no visible para los visitantes.
+`<body>`: Contiene el contenido principal que sí es visible.
+
 
 ### Etiquetas comunes en el HEAD
-* `<meta charset="utf-8">`: Establece el juego de caracteres universal.
-* `<title>`: El título que aparece en la pestaña del navegador (importante para SEO).
-* `<link rel="icon">`: Define el **favicon** o icono de la pestaña.
-* `<meta name="viewport">`: Asegura que el contenido sea adaptable a móviles.
+`<meta charset="utf-8">`: Establece el juego de caracteres universal.
+`<title>`: El título que aparece en la pestaña del navegador (importante para SEO).
+`<link rel="icon">`: Define el favicon o icono de la pestaña.
+`<meta name="viewport">`: Asegura que el contenido sea adaptable a móviles.
 
 
 
 ## Elementos de Bloque y de Línea
 
-* **Elementos de bloque**: Ocupan todo el ancho, comienzan en una línea nueva y separan bloques con espacio (ejemplos: `<h1>-<h6>`, `<p>`, `<ul>`, `<table>`, `<div>`).
-* **Elementos de línea**: Solo ocupan el espacio de su contenido y se muestran uno tras otro (ejemplos: `<a>`, `<strong>`, `<em>`, `<img>`, `<span>`).
+Elementos de bloque: Ocupan todo el ancho, comienzan en una línea nueva y separan bloques con espacio (ejemplos: `<h1>-<h6>`, `<p>`, `<ul>`, `<table>`, `<div>`).
+Elementos de línea: Solo ocupan el espacio de su contenido y se muestran uno tras otro (ejemplos: `<a>`, `<strong>`, `<em>`, `<img>`, `<span>`).
 
 
 
 ## HTML Semántico (HTML 5)
 
 Es fundamental para describir el contenido dándole un significado correcto.
-* **Contenedores no semánticos**: `<div>` (bloque) y `<span>` (línea). Solo agrupan sin dar pistas sobre el contenido.
-* **Etiquetas semánticas**: `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, `<figure>`.
+Contenedores no semánticos: `<div>` (bloque) y `<span>` (línea). Solo agrupan sin dar pistas sobre el contenido.
+Etiquetas semánticas: `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`, `<figure>`.
 
 
 
@@ -174,11 +175,58 @@ Es fundamental para describir el contenido dándole un significado correcto.
 
 ### Formularios
 Sirven para interactuar con el usuario y recibir datos.
-* **Etiquetas**: `<form>`, `<label>`, `<input>`, `<textarea>`, `<button>`.
-* **Atributos de entrada**: `type` (text, password, radio, checkbox, etc.), `name`, `value` y `placeholder`.
+Etiquetas**: `<form>`, `<label>`, `<input>`, `<textarea>`, `<button>`.
+Atributos de entrada: `type` (text, password, radio, checkbox, etc.), `name`, `value` y `placeholder`.
 
 ### Tablas
 * `<table>`: Inicia la tabla.
 * `<tr>`: Define una fila.
 * `<th>`: Celda de encabezado (negrita por defecto).
 * `<td>`: Celda de datos estándar.
+
+## Explicación del estilo:
+1. **color: #FFFF00**: El texto se mostrará en color **amarillo**.
+2. **font-size: 28px**: El tamaño de la fuente es de 28 píxeles.
+3. **margin-bottom: 20px**: Crea un margen inferior de 20 píxeles para separar el título del siguiente elemento.
+4. **<h1>**: Indica que es el título de mayor nivel jerárquico.
+
+
+## CSS
+
+### Sintaxis Básica
+Toda regla de CSS sigue este esquema:
+```css
+selector {
+  propiedad: valor;
+}
+
+
+### Caja (Box Model)
+Fundamental para entender el diseño y el espacio en la web. Todo elemento se considera una caja rectangular compuesta por:
+
+**Content (Contenido):** El texto, imágenes o videos reales.
+**Padding (Relleno):** Espacio **interno** entre el contenido y el borde. Se usa para que el texto no pegue
+**Border (Borde):** La línea que rodea al padding y al contenido.
+**Margin (Margen):** Espacio **externo** que separa el elemento de otros elementos
+
+
+
+## 4. Unidades de Medida y Colores
+
+**px (Píxeles):** Unidad absoluta. No cambia según el tamaño de la pantalla.
+**% (Porcentaje):** Unidad relativa al tamaño del contenedor padre.
+**rem:** Unidad relativa al tamaño de fuente raíz del navegador.
+**vh / vw:** Relativo al alto o ancho de la ventana del navegador.
+
+
+**Hexadecimal:** Ej: `#FFFF00` (Amarillo). Se basa en 6 dígitos (RRGGBB).
+**RGB:** Ej: `rgb(255, 255, 0)`. Define Rojo, Verde y Azul de 0 a 255.
+**Nombres:** Colores predefinidos como `red`, `blue`, `black`.
+
+
+## 5. Implementación en Visual Studio Code
+Para trabajar de forma profesional, debemos separar el contenido del diseño usando archivos externos.
+
+### Vincular CSS Externo
+Dentro de la etiqueta `<head>`, añade la siguiente línea:
+<link rel="stylesheet" href="style.css">
