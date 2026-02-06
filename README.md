@@ -185,10 +185,10 @@ Atributos de entrada: `type` (text, password, radio, checkbox, etc.), `name`, `v
 * `<td>`: Celda de datos estándar.
 
 ## Explicación del estilo:
-1. **color: #FFFF00**: El texto se mostrará en color **amarillo**.
-2. **font-size: 28px**: El tamaño de la fuente es de 28 píxeles.
-3. **margin-bottom: 20px**: Crea un margen inferior de 20 píxeles para separar el título del siguiente elemento.
-4. **<h1>**: Indica que es el título de mayor nivel jerárquico.
+**color: #FFFF00**: El texto se mostrará en color **amarillo**.
+**font-size: 28px**: El tamaño de la fuente es de 28 píxeles.
+**margin-bottom: 20px**: Crea un margen inferior de 20 píxeles para separar el título del siguiente elemento.
+**<h1>**: Indica que es el título de mayor nivel jerárquico.
 
 
 ## CSS
@@ -224,4 +224,4 @@ Para trabajar de forma profesional, debemos separar el contenido del diseño usa
 
 ### Vincular CSS Externo
 Dentro de la etiqueta `<head>`, añade la siguiente línea:
-<link rel="stylesheet" href="style.css">
+`<link rel="stylesheet" href="style.css">`
